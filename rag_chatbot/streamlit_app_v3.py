@@ -108,7 +108,7 @@ def call_model(query: str, messages: List) -> ChatCompletionMessage:
 
 # Streamlit app
 def main():
-    st.title("Customer Support Chatbot")
+    st.title("Welcome to Customer Support ")
     st.write("Ask your question below:")
 
     user_query = st.text_input("Your question:")
